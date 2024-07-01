@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://avatars.githubusercontent.com/u/158801057?v=4"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -86,8 +86,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/zidian23345/zidian23345.github.io/assets/158801057/9606b73f-ffec-4fc5-80bf-1adc736a1cb0"><img src="https://github.com/zidian23345/zidian23345.github.io/assets/158801057/9606b73f-ffec-4fc5-80bf-1adc736a1cb0" alt="2520176df285ee5f31158ec83752942d_water_9_10_20_1627381463" style="max-width: 100%;"></a><br>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/zidian23345/zidian23345.github.io/assets/158801057/7bae81cc-a535-4778-a7f7-2e6b5ab4d1eb"><img src="https://github.com/zidian23345/zidian23345.github.io/assets/158801057/7bae81cc-a535-4778-a7f7-2e6b5ab4d1eb" alt="bdaf8987cbb47ef0c166cb86dc5906c7_water_9_10_20_1562122229" style="max-width: 100%;"></a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://zidian23345.github.io"> 子电皇上的博客 </a>
 <p>
@@ -142,6 +144,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
